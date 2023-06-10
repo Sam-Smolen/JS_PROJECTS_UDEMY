@@ -77,3 +77,7 @@ header {
   margin-top: 1rem;
   text-align: center;
 }
+
+#current-calculation {
+  white-space: pre;
+}
