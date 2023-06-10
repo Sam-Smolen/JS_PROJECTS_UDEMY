@@ -1,10 +1,15 @@
 const defaultResult = 0;
 let currentResult = defaultResult;
 
-currentResult = (currentResult + 10) * 3 / 2 - 1;
+function add(num1, num2) {
+    const result = num1 + num2;
+    return result;
+}
 
-let currentCalculation =  `(${defaultResult} + 10) * 3 / 2 - 1`;
+currentResult = add(2, 3);
+
+let calculationDescription =  `(${defaultResult} + 10) * 3 / 2 - 1`;
 let errorMessage = 'An error \n' +
                     'occured!';
 
-outputResult(currentResult, errorMessage);
+outputResult(currentResult, calculationDescription);
